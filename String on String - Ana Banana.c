@@ -1,6 +1,9 @@
+//O algoritimo verifica quantas vezes uma palavra est√° inserida em outra. Astericos s√£o colocados na n√£o ocorr√™ncia da palavra.
+
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
+
 int main()
 {
     char palavra[20];
@@ -16,17 +19,17 @@ int main()
 
     while(frase[i] != '\0') //percorre a frase
     {
-        a = i;                  // vari·vel auxilar para o valor de i
-        while(palavra [k] != '\0') //percorre a palavra avanÁando o indice somente se houver igualdade
+        a = i;                  // vari√°vel auxilar para o valor de i
+        while(palavra [k] != '\0') //percorre a palavra avan√ßando o indice somente se houver igualdade
         {
             if(palavra [k] == frase[a])
             {
                 contacaractere++;
                 a++;
                 k++;
-                if( contacaractere == strlen(palavra)) //verifica se a quantidade de caracteres identicos e consecultivos È do tamanho da palavra
+                if( contacaractere == strlen(palavra)) //verifica se a quantidade de caracteres identicos e consecultivos √© do tamanho da palavra
                 {
-                    contapalavra++; //incrementa esse contador caso a condiÁ„o anterior seja satisfeita
+                    contapalavra++; //incrementa esse contador caso a condi√ß√£o anterior seja satisfeita
                     contacaractere = 0;
                     k = 0;
                     i ++;
@@ -42,10 +45,10 @@ int main()
             }
             else
             {
-                contacaractere = 0; // se n„o...zera o contacaractere. A comparaÁ„o retorna ao while mais externo partindo do proximo indice da frase
+                contacaractere = 0; // se n√£o...zera o contacaractere. A compara√ß√£o retorna ao while mais externo partindo do proximo indice da frase
                 i++;
                 k = 0;
-                break;  // interompe a iteraÁ„o do while mais interno. A comparaÁ„o retorna ao primeiro indice da palavra
+                break;  // interompe a itera√ß√£o do while mais interno. A compara√ß√£o retorna ao primeiro indice da palavra
             }
         }
     }
