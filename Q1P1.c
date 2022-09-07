@@ -5,7 +5,7 @@ CENTRO DE CIENCIAS EXATAS E TECNOLOGIAS
 LINGUAGEM DE PROGRAMACAO C
 PROFESSOR: ARISTOFANES CORREA
 
-Descricao:
+Descricao: encontra palindromos nas colunas de uma matriz. Astericos são colocados nas colunas onde não há ocorrência de palindromo
 Autor: Ricardo Bertony                      09/06/2022
 
 **************************************************************************************************************************************************************************************************/
@@ -95,7 +95,7 @@ int main()
             }while(x < linhas);
           }
     }
-    //imoressao da matriz apos analise
+    //impressao da matriz apos analise
     printf("\nA matriz analisada:\n");
     for(i = 0; i < linhas; i++)
     {
