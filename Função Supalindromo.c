@@ -1,4 +1,4 @@
-//Encontra, caso existam, palindromos contidos em uma string
+//Encontra, caso existam, palindromos contidos em uma string.
 
 #include <stdio.h>
 #include <stdlib.h>
