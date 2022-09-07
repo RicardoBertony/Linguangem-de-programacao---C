@@ -1,12 +1,10 @@
 /**********************************************************************************************************************************************************************
-______________________________________________________________________________________________________________________________________________________________________
-UNIVERSIDADE FEDERAL DO MARANHAO
+UNIVERSIDADE FEDERAL DO MARANH√ÉO
 CENTRO DE CIENCIAS EXATAS E TECNOLOGIAs
 LINGUAGEM DE PROGRAMACAO C
 PROFESSOR: Aristofanes Correa
 Autor: Ricardo Bertony              09/06/2022              v1.2
-DescriÁ„o: o programa ordena uma string de acordo com a ordem: numeros pares, impares, caracteres minusculos e, por fim, maiusculos. A tabela ASCII eh considerada.
-______________________________________________________________________________________________________________________________________________________________________
+Descri√ß√£o: o programa ordena uma string de acordo com a ordem: numeros pares, impares, caracteres minusculos e, por fim, maiusculos. A tabela ASCII eh considerada.
 ***********************************************************************************************************************************************************************/
 #include <stdio.h>
 #include <stdlib.h>
@@ -77,7 +75,7 @@ int main()
     //ORDENANDO O VETOR PALAVRAONLY
     for(i = 0; i <= contaALL;)
     {
-        if(contaPAR != 0)//caso existam, armazena os pares no comeÁo do vetor
+        if(contaPAR != 0)//caso existam, armazena os pares no come√ßo do vetor
         {
             while(contaPAR > 0)
             {
