@@ -4,7 +4,7 @@ CENTRO DE CIENCIAS EXATAS E TECNOLOGIAS
 LINGUAGEM DE PROGRAMACAO C
 PROFESSOR: ARISTOFANES CORREA
 
-Descricao: o programa deve encontrar uma palavra qualquer, dada pelo usuario, em uma matriz de caracteres, tambem dada pelo usuario.
+Descricao: o programa deve encontrar uma palavra qualquer, dada pelo usuario, em uma matriz de caracteres, tambem dada pelo usuario - somente linhas e coluna.
 Autor: Ricardo Bertony                      08/06/2022         v1.3
 
 **************************************************************************************************************************************************************************************************/
@@ -85,9 +85,9 @@ int main()
                         v++;
                         x++;
                         contacaractere++;
-                        if( contacaractere == strlen(palavra)) //verifica se a quantidade de caracteres identicos e consecultivos È do tamanho da palavra
+                        if( contacaractere == strlen(palavra)) //verifica se a quantidade de caracteres identicos e consecultivos √© do tamanho da palavra
                         {
-                            contapalavra++; //incrementa esse contador caso a condiÁ„o anterior seja satisfeita
+                            contapalavra++; //incrementa esse contador caso a condi√ß√£o anterior seja satisfeita
                             contacaractere = 0;
                             v = 0;
                             w ++;
@@ -96,10 +96,10 @@ int main()
                     }
                     else
                     {
-                        contacaractere = 0; // se n„o...zera o contacaractere. A comparaÁ„o retorna ao while mais externo partindo do proximo indice da frase
+                        contacaractere = 0; // se n√£o...zera o contacaractere. A compara√ß√£o retorna ao while mais externo partindo do proximo indice da frase
                         w++;
                         v = 0;
-                        break;  // interompe a iteraÁ„o do while mais interno. A comparaÁ„o retorna ao primeiro indice da palavra
+                        break;  // interompe a itera√ß√£o do while mais interno. A compara√ß√£o retorna ao primeiro indice da palavra
                     }
                 }
 
@@ -137,9 +137,9 @@ int main()
                         v++;
                         x++;
                         contacaractere++;
-                        if( contacaractere == strlen(palavra)) //verifica se a quantidade de caracteres identicos e consecultivos È do tamanho da palavra
+                        if( contacaractere == strlen(palavra)) //verifica se a quantidade de caracteres identicos e consecultivos √© do tamanho da palavra
                         {
-                            contapalavra++; //incrementa esse contador caso a condiÁ„o anterior seja satisfeita
+                            contapalavra++; //incrementa esse contador caso a condi√ß√£o anterior seja satisfeita
                             contacaractere = 0;
                             v = 0;
                             w ++;
@@ -148,10 +148,10 @@ int main()
                     }
                     else
                     {
-                        contacaractere = 0; // se n„o...zera o contacaractere. A comparaÁ„o retorna ao while mais externo partindo do proximo indice da frase
+                        contacaractere = 0; // se n√£o...zera o contacaractere. A compara√ß√£o retorna ao while mais externo partindo do proximo indice da frase
                         w++;
                         v = 0;
-                        break;  // interompe a iteraÁ„o do while mais interno. A comparaÁ„o retorna ao primeiro indice da palavra
+                        break;  // interompe a itera√ß√£o do while mais interno. A compara√ß√£o retorna ao primeiro indice da palavra
                     }
                 }
 
